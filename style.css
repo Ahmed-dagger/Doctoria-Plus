@@ -28,6 +28,33 @@ body {
   margin-left: 30px;
 }
 
+/* From Uiverse.io by devestter */
+.download {
+  padding: 12px 19px;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: rgb(255, 67, 67);
+  border-radius: 7px;
+  font-weight: bold;
+  transition: 0.5s;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 13px;
+  box-shadow: rgba(150, 143, 143, 0.2) 0px 2px 8px 0px;
+}
+
+.download:hover {
+  background-color: rgb(253, 164, 164);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.saveicon {
+  width: 17px;
+}
+
 .flip-card {
   background-color: transparent;
   width: 100%;
@@ -282,7 +309,6 @@ body {
   }
 
   .Logo {
-    width: 120px;
     margin-left: 0;
   }
 }
